@@ -64,7 +64,7 @@ export const CarruselHome = () => {
       };
 
   return (
-    <div className="w-10/12 justify-center mx-auto p-6 ">
+    <div className="w-10/12 justify-center mx-auto p-6 mt-10 md:mt-4">
         
     <Slider {...settings }  className='  mr-4 '  >
       {dataCarousel.map((item) => (
